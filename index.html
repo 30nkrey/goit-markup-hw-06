@@ -18,20 +18,13 @@
 
 </head>
 <body>
-  <form class="js-speaker-form">
-    
-      <label for="name">Имя</label>
-      <input type="text" name="name" id="name" />
-      <label for="tel">Телефон</label>
-      <input type="text" name="tel" id="tel"/>
-      <label for="mail">Почта</label>
-      <input type="email" name="mail" id="mail"/>
-      <button type="submit">Оставить заявку</button>
-  </form>
+   
+  <!--<form class="js-speaker-form">-->
   
+
+  <!--Section header-->
   <header class="hr-toge">
-    <!--Section header-->
-    
+      
       <div class="container">
        <div class="heade">
      <nav class="main-nav">
@@ -70,11 +63,48 @@
       <div class="container"> 
         
          <h1 class="title">ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
+   <!--Section Form-->
         <button  data-modal-open class="zakaz" type="button">Заказать услугу</button>
         <div class="backdrop is-hidden" data-modal>
           <div class="modal">
-            <p>            
+            <p> <div class="modal-form">
+              <h2 class="our-strong-form">Оставьте свои данные, мы вам перезвоним</h2>
+              <form class="form">
+          
+              <div class="form-field">
+                <label class="form-lable" for="name">Имя</label>
+                <input class="form-input" type="text" name="name" id="name" />
+              </div> 
+          
+              <div class="form-field">
+                <label class="form-lable" for="tel">Телефон</label>
+                <input class="form-input" type="tel" name="tel" id="tel"/>
+              </div>
+          
+              <div class="form-field">
+                <label class="form-lable" for="mail">Почта</label>
+                <input class="form-input" type="mail" name="mail" id="mail"/>
+              </div>
+          
+              <label class="form-lable">Комментарий</label>
+              <div class="form-place-hol">
+              <input class="place-hol" type="text" name="username" placeholder="Введите текст" />
+              </div>
+             
+            </form>
+          
+             <div class="usl"> 
+              <svg class="icon-Vector-2" width="12" height="12">
+                <use href="../images/symbol-defs (4).svg#icon-Vector-2"></use></svg>
+              Соглашаюсь с рассылкой и принимаю<span class="span-form">Условия договора</span>
+                        
+              </div>
+            
+              <button class="form-button" type="submit">Отправить</button>
+                                   
+                   
             </p>
+            
             <button class="pos" data-modal-close>
               <svg class="icon-close" width="18" height="18" >
                 <use href="./images/symbol-defs (2).svg#black">
@@ -83,6 +113,8 @@
               </svg>
               
             </button>
+          </div>
+          </div>
           </div>
     
         </div>
@@ -499,7 +531,8 @@
 </ul>
 
   </div>
-
+<div class="modalka">
+<div>
   <div class="forma">
     <p class="socials">ПОДПИШИТЕСЬ НА РАССЫЛКУ</p>
     <form>
@@ -515,7 +548,13 @@
   </div>
 </div>
 
+</div>
+
 </footer>
+
+
+
+
 <script>
     const refs = {
       openModalBtn: document.querySelector("[data-modal-open]"),

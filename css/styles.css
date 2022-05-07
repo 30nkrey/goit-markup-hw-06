@@ -222,6 +222,105 @@ a {
 
 /* Section Главная*/
 
+.our-strong-form {
+font-weight: 700;
+font-size: 20px;
+line-height: 1.15;
+text-align: center;
+letter-spacing: 0.03em;
+margin-bottom: 12px;
+padding-top: 40px;
+
+color: #212121;
+}
+
+.usl {
+font-weight: 400; 
+font-size: 14px;
+line-height: 1.71;
+/* identical to box height, or 171% */
+letter-spacing: 0.03em;
+color: #757575;
+margin-top: 20px;
+margin-bottom: 30px;
+
+
+}
+.span-form {
+  color: #2196F3;
+  text-decoration: underline;
+}
+
+.form {
+
+}
+
+
+.form-place-hol {
+display: inline;
+height: 96px;
+padding-top: 10px;
+
+
+}
+.place-hol {
+  width: 448px;
+  height: 120px;
+  padding: 10px 10px; 
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+   
+}
+
+.form-button {
+   
+  width: 200px;
+  height: 50px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+/* identical to box height, or 188% */
+  text-align: center;
+  letter-spacing: 0.06em;
+  
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: #ffffff;
+  background: #2196F3;
+  
+
+}
+.form-field {
+
+  margin-bottom: 10px;
+}
+
+.form-lable {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  margin-left: 0;
+ 
+
+}
+.form-input {
+  width: 448px;
+  height: 40px;
+  margin: 0;
+  padding: 10px 20px;
+  font: inherit;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+ 
+}
+
+/*.form-input:focus + .form-lable {
+  color: red;
+}*/
+
+
+
+
 .hero {
   padding: 200px 0 200px;
   text-align: center;
