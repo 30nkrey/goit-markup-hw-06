@@ -234,26 +234,39 @@ padding-top: 40px;
 color: #212121;
 }
 
+.check_input {
+  display: inline-block;
+  height: 15px;
+  width: 16px;
+  align-items: center;
+  border-radius: 0px;
+}
 
+.option {
+  display: block;
+  margin-bottom: 0.25em;
+}
 
 .usl {
 
   display: block;
+  height: 24px;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-
   color: #757575;
   
-  margin-top: 20px;
-  margin-bottom: 30px;
-  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
 
-
+.check {
+  display: inline-block;
 }
 .span-form {
   color: #2196F3;
   text-decoration: underline;
+  padding-left: 4px;
 }
 
 .form {
@@ -261,17 +274,20 @@ display: block;
 padding-left: 40px;
 width: 342px;
 }
-
+.form-coment {
+  position: relative;
+}
 
 .form-place-hol {
 display: inline-flex;
+position: relative;
 height: 96px;
 
 }
 .place-hol {
-  padding-top: 0;
+  display: block;
+  
   width: 448px;
-  height: 120px;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
@@ -299,7 +315,7 @@ height: 96px;
   border-radius: 4px;
   color: #ffffff;
   background: #2196F3;
-  
+  margin-top: 30px;
   
 
 }
