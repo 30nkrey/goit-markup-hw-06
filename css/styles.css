@@ -234,6 +234,8 @@ padding-top: 40px;
 color: #212121;
 }
 
+
+
 .usl {
 
   display: block;
@@ -257,19 +259,17 @@ color: #212121;
 .form {
 display: block;
 padding-left: 40px;
-
 width: 342px;
 }
 
 
 .form-place-hol {
-display: inline-block;
-
+display: inline-flex;
 height: 96px;
 
 }
 .place-hol {
-  vertical-align: top;
+  padding-top: 0;
   width: 448px;
   height: 120px;
   font-weight: 400;
