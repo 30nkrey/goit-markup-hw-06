@@ -217,7 +217,6 @@ a {
   color: var(--primary-text-color);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
 }
 
 /* Section Главная*/
@@ -233,25 +232,15 @@ padding-top: 40px;
 color: #212121;
 }
 
-
 .check_input {
-  
-  
   display: inline-block;
   width: 16px;
   height: 15px;
   align-items: center;
   border-radius: 0px;
-
-}
-
-.option {
-  display: block;
-  margin-bottom: 0.25em;
 }
 
 .usl {
-
   display: block;
   height: 24px;
   font-size: 14px;
@@ -262,15 +251,13 @@ color: #212121;
   padding-top: 20px;
 }
 
-.check_box {
+.checkbox {
   position: absolute;
   width: 1em;
   height: 1em;
-  
 }
 
 .span-form {
-
   color: var(--accent-color);
   text-decoration: underline;
   padding-left: 4px;
@@ -300,7 +287,6 @@ border: 1px solid rgba(33, 33, 33, 0.2);
 }
 
 .form-button {
-   
   width: 200px;
   height: 50px;
   font-weight: 700;
@@ -309,7 +295,6 @@ border: 1px solid rgba(33, 33, 33, 0.2);
 /* identical to box height, or 188% */
   text-align: center;
   letter-spacing: 0.06em;
-  
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   color: var(--background-color);
@@ -323,15 +308,14 @@ border: 1px solid rgba(33, 33, 33, 0.2);
 .form-button:hover,
 .form-button:focus {
   background-color: var(--accent-color-second);
-
 }
+
 .form-field {
   margin-bottom: 10px;
   margin-top: 10px;
 }
 
 .form-lable {
-
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -339,19 +323,16 @@ border: 1px solid rgba(33, 33, 33, 0.2);
   font-size: 12px;
   line-height: 1.17;
 /* identical to box height */
-
   letter-spacing: 0.01em;
   margin-bottom: 10px;
-
 }
+
 .form-input {
-  
   width: 448px;
   height: 40px;
   font: inherit;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
- 
 }
 
 .form-icon {
@@ -359,7 +340,6 @@ border: 1px solid rgba(33, 33, 33, 0.2);
 }
 .form-icon input {
   padding-right: 2.5em;
-
 }
 
 .text-field_aicon {
@@ -369,13 +349,10 @@ border: 1px solid rgba(33, 33, 33, 0.2);
   top:0;
   bottom: 0;
   margin-left: 15px;
-
 }
-  
 
 .nm {
   position: absolute;
-
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -385,12 +362,7 @@ border: 1px solid rgba(33, 33, 33, 0.2);
 .nm:focus {
   fill: var(--accent-color);
 }
-/*.form-input:focus + .form-lable {
-
-}*/
-
-
-
+/*Section Hero*/
 
 .hero {
   padding: 200px 0 200px;
