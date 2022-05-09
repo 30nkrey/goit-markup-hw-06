@@ -68,17 +68,20 @@
         <div class="backdrop is-hidden" data-modal>
           
           <div class="modal">
-            <p> <div class="modal-form">
+            <p> 
+              <div class="modal-form">
               <h2 class="our-strong-form">Оставьте свои данные, мы вам перезвоним</h2>
               <form class="form">
           
               <div class="form-field">
                 <label class="form-lable" for="name">Имя</label>
+                <input class="form-input" type="text" name="name" id="name"/>          
                 
-                <input class="form-input" type="text" name="name" id="name" />
-                <svg class="person-black" width="18" height="18">
-                  <use href="./images/symbol-defs (4).svg#person-black"></use>
-                </svg>
+                
+                  <svg class="person-black nm" width="18" height="18">
+                    <use href="./images/symbol-defs (4).svg#person-black"></use>
+                  </svg> 
+                 
                 
               </div> 
           
@@ -91,30 +94,31 @@
               <div class="form-field">
                 <label class="form-lable" for="mail">Почта</label>
                 
-                <input class="form-input" type="mail" name="mail" id="mail"/>
+                <input class="form-input" type="mail" name="email" id="mail"/>
               </div>
 
               <div class="form-coment">
               <label class="form-lable">Комментарий</label>
               <textarea class="form-place-hol">Введите текст</textarea>
-            </div>
-            </div>
-             
+              </div>
+              </div>
             </form>
+            
           
              <div class="usl"> 
                <label class="check option">
-                 <input class="check_input" type="checkbox" />
-              <svg class="icon-Vector-2" width="16" height="15">
-                <use href="./images/symbol-defs (4).svg#icon-Vector-2"></use></svg>
-              Соглашаюсь с рассылкой и принимаю<span class="span-form">Условия договора</span>
-            </p>         
+                 <input class="check_input" type="checkbox"/>
+                 <svg class="icon-Vector-2" width="16" height="15">
+                  <use href="./images/symbol-defs (4).svg#icon-Vector-2"></use>
+                </svg>Соглашаюсь с рассылкой и принимаю<span class="span-form">Условия договора</span>
               </div>
+            </p>         
+            
             
               <button class="form-button" type="submit">Отправить</button>
                                    
                    
-            </p>
+            
 
             <button class="pos" data-modal-close>
               <svg class="icon-close" width="18" height="18" >
@@ -128,10 +132,6 @@
           </div>
           </div>
     
-        </div>
-
-       </div>
-      
       </section>
      
   <!--Section Наши сильные стороны-->
@@ -541,21 +541,21 @@
   </li> 
 </ul>
 
-  </div>
+</div>
+
 <div class="modalka">
 <div>
   <div class="forma">
     <p class="socials">ПОДПИШИТЕСЬ НА РАССЫЛКУ</p>
     <form>
-      <input type="email" name="mail" id="mail"/>
-      <button type="submit-f" class="submit-f">Подписаться<svg class="icon-send" width="24" height="24">
+      <div class="ft-send">
+      <input class="in-send in-mail" type="next" name="email" id="mail" value="E-mail"
+      />
+      <button type="submit" class="submit-f">Подписаться<svg class="icon-send" width="18" height="18">
         <use href="./images/symbol-defs (4).svg#icon-send"></use>
       </svg></button>
-        
+    </div>  
     </form>
-
-
-
   </div>
 </div>
 

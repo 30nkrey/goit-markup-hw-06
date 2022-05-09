@@ -233,12 +233,16 @@ padding-top: 40px;
 color: #212121;
 }
 
+
 .check_input {
+  
+  
   display: inline-block;
   width: 16px;
   height: 15px;
   align-items: center;
   border-radius: 0px;
+
 }
 
 .option {
@@ -258,8 +262,11 @@ color: #212121;
   padding-top: 20px;
 }
 
-.check {
-  display: inline-block;
+.check_box {
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  
 }
 
 .span-form {
@@ -304,8 +311,8 @@ border: 1px solid rgba(33, 33, 33, 0.2);
   
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  color: #ffffff;
-  background: #2196F3;
+  color: var(--background-color);
+  background: var(--accent-color);
   margin-top: 30px;
   transition-property: background-color;
   transition-duration: 250ms;
@@ -337,14 +344,18 @@ border: 1px solid rgba(33, 33, 33, 0.2);
 
 }
 .form-input {
-  
+  position: relative;
   width: 448px;
   height: 40px;
- 
   font: inherit;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
  
+}
+.nm {
+  position: absolute;
+  transform: translateY(-30px);
+  padding-left: 0;
 }
 
 /*.form-input:focus + .form-lable {
@@ -835,30 +846,63 @@ color: var(--primary-text-color);
   margin-left: 93px;
 }
 .submit-f {
-
+display: block;
 padding-top: 10px;
 padding-bottom: 10px;
-
 font-weight: 700;
 font-size: 16px;
 line-height: 1.88;
 /* identical to box height, or 188% */
 width: 200px;
+height: 50px;
 align-items: center;
-background: #2196F3;
+background: var(--accent-color);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 text-align: center;
 letter-spacing: 0.06em;
-color: #FFFFFF;
+color: var(--background-color);
+}
+
+.ft-send {
+  display: flex;
+
+}
+
+.in-send {
+  display: block;
+  box-sizing: border-box;
+  width: 356px;
+  height: 48px;
+  margin-right: 12px;
+  
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: transparent;
 }
 
 .icon-send {
   margin-left: 10px;
   margin-right: 8px;
-  margin-top: 13px;
+  
 }
 
+.in-mail {
+
+font-weight: 400;
+font-size: 16px;
+line-height: 1.25;
+/* identical to box height, or 125% */
+align-items: center;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+padding: 15px 0 15px 16px;
+
+}
+
+
+/*Socials*/
 .soc {
   margin-left: 70px;
 }
