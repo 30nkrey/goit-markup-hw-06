@@ -270,7 +270,8 @@ color: #212121;
 }
 
 .span-form {
-  color: #2196F3;
+  
+  color: var(--accent-color);
   text-decoration: underline;
   padding-left: 4px;
 }
@@ -344,7 +345,7 @@ border: 1px solid rgba(33, 33, 33, 0.2);
 
 }
 .form-input {
-  position: relative;
+  
   width: 448px;
   height: 40px;
   font: inherit;
@@ -352,14 +353,27 @@ border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
  
 }
+
+.form-icon {
+  position: relative;
+  
+  
+}
 .nm {
   position: absolute;
+  margin-left:-140px;
   transform: translateY(-30px);
-  padding-left: 0;
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.nm:hover,
+.nm:focus {
+  fill: var(--accent-color);
+}
 /*.form-input:focus + .form-lable {
-  color: red;
+
 }*/
 
 
