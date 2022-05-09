@@ -3,19 +3,19 @@
 /* цвет акцента #2196F3*/
 /* цвет акцента вторичный #188ce8*/
 /* цвет фона #ffffff*/
-/*цвет заголовков #000000*/
-/*цвет фона главной страницы #2F303A */
-/*цвет фона кнопок #F5F4FA*/
+/* цвет заголовков #000000*/
+/* цвет фона главной страницы #2F303A */
+/* цвет фона кнопок #F5F4FA*/
 /* цвет адреса rgba(255, 255, 255, 0.6)*/
-/*цвет тени one rgba(0, 0, 0, 0.1)*/
-/*цвет тени two rgba(0, 0, 0, 0.1)*/
-/*цвет тени three rgba(0, 0, 0, 0.12)*/
+/* цвет тени one rgba(0, 0, 0, 0.1)*/
+/* цвет тени two rgba(0, 0, 0, 0.1)*/
+/* цвет тени three rgba(0, 0, 0, 0.12)*/
 /* цвет фона под фото #e5e5e5*/
-/*цвет фона карточки #eeeeee*/
+/* цвет фона карточки #eeeeee*/
 /* цвет линии внизу шапки #ececec*/
-/*цвет фона клиентов #AFB1B8*/
-/*цвет фона при трансформации*/
-
+/* цвет фона клиентов #AFB1B8*/
+/* цвет фона при трансформации rgba(33, 150, 243, 0.9)*/
+/* цвет при оверлей #c4c4c4*/ 
 
 :root {
   --primary-text-color: #757575;
@@ -35,6 +35,7 @@
   --border-hr-color: #ececec;
   --color-clients: #AFB1B8;
   --color-bg-transform: rgba(33, 150, 243, 0.9);
+  --color-overly: #c4c4c4;
 }
 html {
   box-sizing: border-box;
@@ -246,7 +247,7 @@ color: #212121;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--primary-text-color);
   padding-bottom: 20px;
   padding-top: 20px;
 }
@@ -375,7 +376,7 @@ border: 1px solid rgba(33, 33, 33, 0.2);
     rgba(47, 48, 58, 0.4),
     rgba(47, 48, 58, 0.4)), 
     url("../images/fone-hero.jpg");
-  background-color: #c4c4c4;
+  background-color: var(--color-overly);
   
   background-repeat: no-repeat;
   background-position: center;
