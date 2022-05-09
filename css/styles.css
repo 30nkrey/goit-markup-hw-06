@@ -869,7 +869,7 @@ color: var(--background-color);
 
 }
 
-.in-send {
+.send {
   display: block;
   box-sizing: border-box;
   width: 356px;
