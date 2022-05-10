@@ -858,7 +858,7 @@ color: var(--primary-text-color);
 /*Section Форма*/
 
 .forma {
-  margin-left: 93px;
+  margin-left: auto;
 }
 .submit-f {
 display: flex;
@@ -874,6 +874,7 @@ height: 50px;
 background: var(--accent-color);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
+border: none;
 text-align: center;
 letter-spacing: 0.06em;
 color: var(--background-color);
