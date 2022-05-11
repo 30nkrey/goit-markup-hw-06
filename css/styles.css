@@ -362,23 +362,21 @@ border: 1px solid rgba(33, 33, 33, 0.2);
 }
 
 .form-input:hover,
-.form-input:focus {
+.form-input:focus + .nm {
   border-color: var(--accent-color);
-  
+  fill: var(--accent-color);
 }
 
-.form-icon {
-  position: relative;
-}
-
-.form-color {
-  transition-property: border-color, fill;
+.nm {
+  display: inline-block;
+  background-image: url(../images/symbol-defs\ \(4\).svg);
+  transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-color:hover {
-  fill: var(--accent-color);
+.form-icon {
+  position: relative;
 }
 
 .form-icon input {
