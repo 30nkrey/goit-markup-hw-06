@@ -350,6 +350,8 @@ border: 1px solid rgba(33, 33, 33, 0.2);
 }
 
 .form-input {
+  display: block;
+  position: relative;
   padding-left: 42px;
   width: 448px;
   height: 40px;
@@ -368,8 +370,10 @@ border: 1px solid rgba(33, 33, 33, 0.2);
 }
 
 .nm {
-  display: inline-block;
-  
+  position: absolute;
+  display: block;
+  top: 11px;
+  margin-left: 12px;
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -384,12 +388,11 @@ border: 1px solid rgba(33, 33, 33, 0.2);
 }
 
 .text-field_aicon {
-  position: absolute;
-  display: flex; 
-  align-items: center;
-  top:0;
-  bottom: 0;
-  margin-left: 15px;
+  position: relative;
+  margin-top: 4px;
+  
+
+  
 }
 
 /*Section Hero*/
