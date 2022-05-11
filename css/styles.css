@@ -363,7 +363,7 @@ border: 1px solid rgba(33, 33, 33, 0.2);
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-input:hover,
+.form-input:hover + .nm, 
 .form-input:focus + .nm {
   border-color: var(--accent-color);
   fill: var(--accent-color);
