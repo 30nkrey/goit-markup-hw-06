@@ -364,6 +364,7 @@ border: 1px solid rgba(33, 33, 33, 0.2);
 .form-input:hover,
 .form-input:focus {
   border-color: var(--accent-color);
+  
 }
 
 .form-icon {
@@ -377,7 +378,6 @@ border: 1px solid rgba(33, 33, 33, 0.2);
 }
 
 .form-color:hover {
-  border-color: var(--accent-color);
   fill: var(--accent-color);
 }
 
@@ -393,19 +393,6 @@ border: 1px solid rgba(33, 33, 33, 0.2);
   bottom: 0;
   margin-left: 15px;
 }
-
-/*.nm {
-  position: absolute;
-  transition-property: fill;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-/*.nm:hover,
-.nm:focus {
-  fill: var(--accent-color);
-}*/
-
 
 /*Section Hero*/
 
