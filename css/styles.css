@@ -859,17 +859,11 @@ margin-bottom: 50px;
   margin: -15px;
  }
 
- .job-c .cartka:hover {
-  box-shadow: 0 4px 4px 0 #00000025;
-
-}
-
 .item-c {
   display: block;
   width: 370px;
   margin: 15px;
 }
-
 
  .cartka {
   display: block;
@@ -886,10 +880,11 @@ margin-bottom: 50px;
   border-top: none;
   }
 
+
 .actions {
   position: absolute;
   width: 370px;
-  height: 294px;
+  height: 404px;
   top: 0;
   opacity: 0;
   z-index: 1;
@@ -918,6 +913,11 @@ margin-bottom: 50px;
   background: var(--color-bg-transform);
 }
 
+.job-c .cartka:hover {
+  box-shadow: 0 4px 4px 0 #00000025;
+ 
+}
+
 .actions:hover .over {
   transform: translateY(0);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -925,8 +925,8 @@ margin-bottom: 50px;
 
 .cartka:hover .actions {
  opacity: 0.9; 
-
 }
+
 
 .special-name {
   font-size: 18px;
